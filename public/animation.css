@@ -1,0 +1,36 @@
+.animation-Section{
+	margin:10% 10% 10% 10%;
+	min-height: 300px;
+}
+
+/*.child-Image{
+	height:50px;
+	width:100px;
+	position: relative;
+    left: 0;
+    bottom: 0;
+}*/
+
+.child-Image-Container{
+    width: 50%;
+    height: 50%;
+    margin: 10% 25% 10% 25%;
+    position:relative;
+    background-color: transparent;
+}
+.child-Image
+{
+    width: 70px;
+    height: 180px;
+    position:absolute;
+    bottom:25%;
+    left:35%;
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 992px) {
+  .input-Range{
+  	padding-right: 10% ;
+  	padding-left: 10% ;
+  }
+}

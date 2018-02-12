@@ -1,0 +1,21 @@
+
+
+.top-Heading {
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-Methods{
+	margin : 1% 5% 1% 5%;
+}
+
+.contact-Image {
+    max-width: 150px;
+    width: 40%;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.status-Section{
+	margin:1% 20% 1% 20%;
+	text-align: center;
+}

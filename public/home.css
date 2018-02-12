@@ -1,0 +1,116 @@
+
+.carousel-section{
+position: relative;
+margin-top: 50px; 
+}
+.carousel-section h3{
+	color :#d82020 ;
+}
+.carousel-img{
+	width: 100% ;
+}
+.carousel-Button{
+	background-color: #f46541 ;
+	text-align: center;
+	color: #000000;
+    border: 0 ;
+    position: relative;
+    height: auto;
+    width: auto;
+    font-size: auto;
+}
+
+.carousel-indicatorsLeft{
+	text-align: right ;
+}
+
+.heading-Over-Carousel{
+   position: relative;
+   bottom: 28px  ;
+   max-width: 30% ; 
+   margin-left: 35%;
+   background-color: #1b3c60 ;
+   color : #000000;
+   z-index: 1 ;
+}
+
+.services-Section{
+	position: relative;
+	margin-top: 20px;
+    margin-bottom: 25px; 
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.service-Image{
+  width: 60%;
+  max-width: 250px;
+  max-height: 250px;
+  margin: 2% 0 2% 0 ;
+}
+
+.customer-Section{
+	background-color: #1b3c60 ;
+     color: white;
+}
+.customer-rowFirst{
+	padding-left: 1%;
+padding-right: 2%;
+}
+
+.customer-Image{
+	padding-right: 8%;
+	padding-left: 8%;
+}
+
+
+.branches-Section{
+	position: relative;
+	margin-left: 1% ;
+	margin-right: 1% ; 
+	margin-top: 15px;
+}
+.branches-Column{
+min-height:150px; 
+max-height: 190px;
+margin-bottom: -10px;
+}
+
+@media only screen and (min-width: 400px) {
+   .branches-Section .branch-Column-Last {
+        min-height: 115px ;
+    }
+    .branch-Column{
+    	min-height: 110px;
+    }
+}
+@media only screen and (max-width: 400px) {
+   .branches-Section .branch-Column-Last {
+        min-height: 105px ;
+    }
+    .branch-Column{
+    	min-height: 100px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .branch-Column{
+    	min-height: 150px;
+    }
+}
+
+.vacancies-Section{
+	margin-bottom: 10px;
+}
+
+.vacancies-Section img{
+	max-height: 100%;
+	max-width: 50%;
+	padding: 0px;
+	margin-left: 0px;
+	margin-left: 0px;
+}
+
+.vacancies-Selector-Images{
+	padding-right:20%; 
+	padding-left:20%;
+}

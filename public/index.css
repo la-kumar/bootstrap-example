@@ -1,0 +1,60 @@
+/*logoContainer*/
+.removePadding{
+   padding-left: 0 ;
+   padding-right: 0 ;
+}
+
+.navbar-brand img {
+  height: 100%;
+  width: 60%;
+}
+.navbar-List:hover{
+  background-color: blue ;
+}
+
+
+
+/*footer section starts here */
+
+.footer-Section {
+	background-color: #1b3c60 ;
+	color : #000000 ;
+	position: relative;
+	height: auto ;
+	/*margin-left: 7% ;
+	margin-right: 7% ; */
+}
+.footer-Section .footer-Margin {
+	position: relative;
+	margin-left: 5% ;
+	margin-right: 5% ;
+}
+.footer-List{
+  	list-style-type: none;
+  	align-items: left ;
+  	padding-left: 0px ;
+}
+.footer-Button{
+	position: relative;
+background-color: #f46541
+}
+
+.footer-Input{
+	position: relative;
+	align-items: center;
+	width: 100% ;
+    background-color: grey ;
+}
+.footer-NewAddition{
+	max-height: 100px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .footer-Column {
+    	min-height: 250px;
+    }  
+}
+
+
+
+

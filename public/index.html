@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>
+        bootstrapPSD
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js" </script>
+    < script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js" >
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="animation.css">
+    <script src="index.js"></script>
+    <script src="contact.js"></script>
+    <script src="animation.js"></script>
+</head>
+
+<body ng-app='myApp' ng-controller='indexCtrl'>
+    <nav class="navbar-default navbar-fixed-top collapse.navbar-collapse navbar-section">
+        <div class='row'>
+            <div class='col-sm-2  col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-1'>
+                <a class="navbar-brand" href="#">
+                    <img class="img-circle img-responsive" src='resource/logo.jpeg' alt='logo of website' >
+                    </a>
+            </div>
+            <div class="col-sm-10  col-md-8 col-md-offset-1 col-lg-7 col-lg-offset-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class='navbar-List'><a ui-sref='home'>Home</a></li>
+                        <li class='navbar-List'><a href="#">Portfolio</a></li>
+                        <li class='navbar-List'><a ui-sref="animation">Animation</a></li>
+                        <li class='navbar-List'><a ui-sref='contactUs'>Contact</a></li>
+                        <li>
+                            <button class="btn btn-danger navbar-btn">Blog</button>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <form class="navbar-form ">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="search">
+                                    <div class="input-group-btn buttonDiv">
+                                        <button class="btn btn-default form-control" type="submit">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class='container-fluid ' ui-view>
+
+    </div>
+    <div class='footer-Section' align='center'>
+            <footer class='footer-Margin'>
+                <div class="row removePadding ">
+                    <div class="col-sm-6 col-md-3 col-lg-3 footer-Column " align='center'>
+                        <div class='row'>
+                        <div class='col-sm-11 col-lg-11 col-md-11'>
+                            <h3>SOME RECEPIES</h3>
+                            <ul class='footer-List' align='left'>
+                                <li>First item</li>
+                                <li><a href='#'>some http link</a></li>
+                                <li>visit above link</li>
+                            </ul>
+                            <hr/>
+                            <ul class='footer-List' align='left'>
+                                <li>Second item</li>
+                                <li><a href="# ">some http link</a></li>
+                                <li>visit above link</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 footer-Column " align='center'>
+                       <div class='row'>
+                        <div class='col-sm-11 col-lg-11 col-md-11'>
+                            <h3 align='center'>NEWS-LETTER</h3>
+                            <p>subscribe to our news-letter to get latest recepies, discounts and offers</p>
+                            <hr/>
+                            <label for="ex1 " align='left'>EMAIL</label>
+                            <div class='row'>
+                                <div class="col-xs-10 col-xs-offset-1 col-sm-9 col-sm-offset-1 col-md-9 col-md-offset-1 col-lg-9 col-lg-offset-1 " align='center'>
+                                    <input id="ex1 " type="email " class='footer-Input'>
+                                </div>
+                            </div>
+                            <div class='row'>
+                                <div class='col-xs-3 col-xs-offset-8 col-sm-3 col-sm-offset-7 col-md-3 col-md-offset-7 col-lg-3 col-lg-offset-7' align='center'>
+                                    <button type="button " class="btn btn-primary pull-right footer-Button">REGISTER</button>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 footer-Column " align='center'>
+                       <div class='row'>
+                        <div class='col-sm-11 col-lg-11 col-md-11'>
+                            <h3 align='center'>NEW ADDITION</h3>
+                            <div class='row footer-NewAddition'>
+                                <div class='col-xs-5 col-sm-5 col-md-5 col-lg-5'>
+                                    <img src='resource/logo.jpeg' width="80% " height='50%' alt='dish1'>
+                                </div>
+                                <div class='col-xs-7 col-sm-7 col-md-7 col-lg-7'>
+                                    <ul class='footer-List'>
+                                        <li>one</li>
+                                        <li>scdcsdcscsd</li>
+                                        <li>sdncdsjcn</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class='row footer-NewAddition'>
+                                <div class='col-xs-5 col-sm-5 col-md-5 col-lg-5'>
+                                    <img src='resource/logo.jpeg' width="80% " height='50%' alt='dish1'>
+                                </div>
+                                <div class='col-xs-7 col-sm-7 col-md-7 col-lg-7'>
+                                    <ul class='footer-List'>
+                                        <li>one</li>
+                                        <li>scdcsdcscsd</li>
+                                        <li>sdncdsjcn</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 footer-Column " align='center'>
+                       <div class='row'>
+                        <div class='col-sm-11 col-lg-11 col-md-11'>
+                            <h3 align="center ">CONTACT</h3>
+                            <p> <span class="glyphicon glyphicon-home "></span> New York, NY 10012, US</p>
+                            <hr/>
+                            <p><span class="glyphicon glyphicon-envelope "></span> info@example.com</p>
+                            <hr/>
+                            <p><span class='glyphicon glyphicon-phone'></span> + 01 234 567 88</p>
+                            <hr/>
+                            <p><span class="glyphicon glyphicon-phone-alt "></span> + 01 234 567 89 <span class="badge ">5</span></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+        
+</body>
+
+</html>
